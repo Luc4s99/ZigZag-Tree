@@ -5,7 +5,8 @@ Receives one pointer to the root of the tree
 Return 1- Is "Zig_Zag", 0- Isn't "Zig_Zag"
 */
 
-int Zig_Zag(NoArv *arvore){	//Receiving the root of the tree
+int Zig_Zag(NoArv *arvore){	//Receiving the root
+	
 	if((arvore->esq != NULL) && (arvore->dir != NULL)){		//Full node
 		return 0;
 	}else if((arvore->esq == NULL) && (arvore->dir == NULL)){	//Empty node
