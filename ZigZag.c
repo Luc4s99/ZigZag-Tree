@@ -28,3 +28,5 @@ int Zig_Zag(NoArv *arvore){	//Receiving the root of the tree
 		}
 	}
 }
+
+/*END*/
