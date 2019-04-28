@@ -11,7 +11,7 @@ int Zig_Zag(NoArv *arvore){	//Receiving the root of the tree
 	}else if((arvore->esq == NULL) && (arvore->dir == NULL)){	//Empty node
 		return 0;
 	}else{
-		if(arvore->esq != NULL){//If just left node exist
+		if(arvore->esq != NULL){	//If just left node exist
 			Aux = arvore->esq;
 			if((Aux->esq == NULL) && (Aux->dir == NULL)){	//If next node is empty
 				return 1;
@@ -28,5 +28,3 @@ int Zig_Zag(NoArv *arvore){	//Receiving the root of the tree
 		}
 	}
 }
-
-/*END*/
